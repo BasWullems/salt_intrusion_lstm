@@ -1,0 +1,10 @@
+*.mat
+*.m
+*.mlx
+*model.png
+*compare Gouda Krimpen.py
+__pycache__/*
+Geodata/*
+Data/*.csv
+!Data/features.csv
+
