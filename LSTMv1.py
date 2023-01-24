@@ -32,7 +32,7 @@ TEST = True
 
 # Enter 'File' to reload a saved model suite or
 # 'New' to recalculate and save models.
-SOURCE = 'New'
+SOURCE = 'File'
 
 # Set the location to save the models to. Must contain a format placeholder.
 # Default = '.\\Models2\\LSTM_{}'
@@ -60,7 +60,7 @@ THRESHOLD = 300
 
 # %% Import the dataset of measurements
 
-features_table = pd.read_csv('..\\Data\\Features2.csv', index_col=0)
+features_table = pd.read_csv('..\\Data\\Features.csv', index_col=0)
 # Interpolate missing values
 features_table = features_table.interpolate()
 # Convert dates to datetime format
