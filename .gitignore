@@ -8,4 +8,5 @@ Geodata/*
 Data/*.csv
 !Data/features.csv
 old_scripts/*
+Models2/*
 
